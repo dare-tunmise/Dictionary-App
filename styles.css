@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.mainapp {
+    max-width: 600px;
+    height: 100vh;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 40px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 50px;
+    height: 70px;
+
+}
+
+.header .logo i {
+    color: blueviolet;
+    /* color: rgb(169, 163, 163); */
+    font-size: 30px;
+}
+
+.header .settings {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.header .settings i {
+    font-size: 20px;
+    color: rgb(169, 163, 163);
+}
+
+.search {
+    margin-bottom: 50px;
+}
+
+.search .search-box {
+    width: 100%;
+    max-width: 600px;
+    padding: 0;
+    height: 50px;
+    background-color: rgb(246, 243, 243);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+}
+
+.search .search-box input {
+    outline: none;
+    border: none;
+    width: 90%;
+    background: none;
+    margin-left: 15px;
+    font-size: bolder;
+}
+
+.search .search-box button {
+    outline: none;
+    border: none;
+    color: rgb(174, 78, 174);
+    margin-right: 15px;
+}
+
+.word-pronouciation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.word-pronouciation .word h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+.word-pronouciation .word span {
+    color: rgb(174, 78, 174);
+}
+
+.word-pronouciation .sound button {
+    outline: none;
+    border: none;
+    width: 50px;
+    height: auto;
+    background-color: rgb(202, 168, 202);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.word-pronouciation .sound button i {
+    color: rgb(148, 29, 148);
+    font-size: 20px;
+}
+
+.word-part {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 30px;
+
+}
+
+.word-part .part-of-speech {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.word-part .dash {
+    background-color: rgb(246, 243, 243);
+    height: 2px;
+    width: 100%;
+}
+
+
+.word-meaning p {
+    color: rgb(126, 120, 120);
+    margin-bottom: 30px;
+}
+
+.word-meaning ul {
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.word-meaning ul li {
+    margin-bottom: 15px;
+}
+
+.word-meaning .word-synonyms {
+    margin-right: 30px;
+}
+
+.word-meaning .word-synonyms span {
+    color: blueviolet;
+    margin-left: 30px;
+}
+
+.word-meaning .example {
+    margin-left: 20px;
+}
+
+.final-dash {
+    margin-top: 40px;
+    background-color: rgb(246, 243, 243);
+    height: 2px;
+    width: 100%;
+}
+
+.source {
+    color: ;
+    margin-top: 30px;
+}
+
+.source-link {
+    margin-left: 20px;
+    color: gray;
+}
+
+.error {
+    margin-top: 80px;
+    color: red;
+    text-align: center;
+}
